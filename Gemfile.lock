@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     ontologies_api_client (2.0.3)
-      activesupport (= 6.0.4.1)
+      activesupport
       excon
       faraday
       faraday-excon (~> 2.0.0)
@@ -59,7 +59,7 @@ PLATFORMS
   ruby
   x86_64-darwin-16
   x86_64-darwin-17
-
+  
 DEPENDENCIES
   ontologies_api_client!
   pry
